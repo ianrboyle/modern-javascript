@@ -9,16 +9,6 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./index.js":
-/*!******************!*\
-  !*** ./index.js ***!
-  \******************/
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("var Chart = __webpack_require__(/*! chart.js */ \"./node_modules/chart.js/dist/chart.esm.js\");\nconsole.log(\"yoooo\");\n// const ctx = document.getElementById(\"myChart\");\nvar math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/lib/cjs/index.js\");\nconst { sqrt } = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/lib/cjs/index.js\");\nconsole.log(sqrt(-4).toString());\n\n// var ctx = document.getElementById(\"myChart\");\n// var myChart = new Chart(ctx, {\n//   type: \"bar\",\n//   data: {\n//     labels: [\"Red\", \"Blue\", \"Yellow\", \"Green\", \"Purple\", \"Orange\"],\n//     datasets: [\n//       {\n//         label: \"# of Votes\",\n//         data: [12, 19, 3, 5, 2, 3],\n//         backgroundColor: [\n//           \"rgba(255, 99, 132, 0.2)\",\n//           \"rgba(54, 162, 235, 0.2)\",\n//           \"rgba(255, 206, 86, 0.2)\",\n//           \"rgba(75, 192, 192, 0.2)\",\n//           \"rgba(153, 102, 255, 0.2)\",\n//           \"rgba(255, 159, 64, 0.2)\",\n//         ],\n//         borderColor: [\n//           \"rgba(255, 99, 132, 1)\",\n//           \"rgba(54, 162, 235, 1)\",\n//           \"rgba(255, 206, 86, 1)\",\n//           \"rgba(75, 192, 192, 1)\",\n//           \"rgba(153, 102, 255, 1)\",\n//           \"rgba(255, 159, 64, 1)\",\n//         ],\n//         borderWidth: 1,\n//       },\n//     ],\n//   },\n//   options: {\n//     scales: {\n//       yAxes: [\n//         {\n//           ticks: {\n//             beginAtZero: true,\n//           },\n//         },\n//       ],\n//     },\n//   },\n// });\n\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js":
 /*!*****************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/arrayLikeToArray.js ***!
@@ -186,6 +176,16 @@ eval("var arrayLikeToArray = __webpack_require__(/*! ./arrayLikeToArray.js */ \"
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__(/*! regenerator-runtime */ \"./node_modules/regenerator-runtime/runtime.js\");\n\n\n//# sourceURL=webpack://modern-javascript/./node_modules/@babel/runtime/regenerator/index.js?");
+
+/***/ }),
+
+/***/ "./index.js":
+/*!******************!*\
+  !*** ./index.js ***!
+  \******************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var Chart = __webpack_require__(/*! chart.js */ \"./node_modules/chart.js/dist/chart.esm.js\");\n\nconsole.log(\"yoooo\"); // const ctx = document.getElementById(\"myChart\");\n\nvar math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/lib/cjs/index.js\");\n\nvar _require = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/lib/cjs/index.js\"),\n    sqrt = _require.sqrt;\n\nconsole.log(sqrt(-4).toString());\nvar name = \"ian\";\nvar lastName = \"b\";\nconsole.log(\"\".concat(name, \" \").concat(lastName)); // var ctx = document.getElementById(\"myChart\");\n// var myChart = new Chart(ctx, {\n//   type: \"bar\",\n//   data: {\n//     labels: [\"Red\", \"Blue\", \"Yellow\", \"Green\", \"Purple\", \"Orange\"],\n//     datasets: [\n//       {\n//         label: \"# of Votes\",\n//         data: [12, 19, 3, 5, 2, 3],\n//         backgroundColor: [\n//           \"rgba(255, 99, 132, 0.2)\",\n//           \"rgba(54, 162, 235, 0.2)\",\n//           \"rgba(255, 206, 86, 0.2)\",\n//           \"rgba(75, 192, 192, 0.2)\",\n//           \"rgba(153, 102, 255, 0.2)\",\n//           \"rgba(255, 159, 64, 0.2)\",\n//         ],\n//         borderColor: [\n//           \"rgba(255, 99, 132, 1)\",\n//           \"rgba(54, 162, 235, 1)\",\n//           \"rgba(255, 206, 86, 1)\",\n//           \"rgba(75, 192, 192, 1)\",\n//           \"rgba(153, 102, 255, 1)\",\n//           \"rgba(255, 159, 64, 1)\",\n//         ],\n//         borderWidth: 1,\n//       },\n//     ],\n//   },\n//   options: {\n//     scales: {\n//       yAxes: [\n//         {\n//           ticks: {\n//             beginAtZero: true,\n//           },\n//         },\n//       ],\n//     },\n//   },\n// });\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
 
 /***/ }),
 

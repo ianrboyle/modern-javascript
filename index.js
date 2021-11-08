@@ -1,9 +1,13 @@
-var Chart = require("chart.js");
+// var Chart = require("chart.js");
 console.log("yoooo");
 // const ctx = document.getElementById("myChart");
 var math = require("mathjs");
 const { sqrt } = require("mathjs");
 console.log(sqrt(-4).toString());
+
+var name = "ian";
+var lastName = "b";
+console.log(`${name} ${lastName}`);
 
 // var ctx = document.getElementById("myChart");
 // var myChart = new Chart(ctx, {
